@@ -1,1 +1,397 @@
-{"Name":"Report","Width":"6.5in","Layers":[{"Name":"default"}],"CustomProperties":[{"Name":"DisplayType","Value":"Page"},{"Name":"SizeType","Value":"Default"},{"Name":"PaperOrientation","Value":"Portrait"}],"Page":{"PageWidth":"8.5in","PageHeight":"11in","RightMargin":"1in","LeftMargin":"1in","TopMargin":"1in","BottomMargin":"1in","Columns":1,"ColumnSpacing":"0in"},"DataSources":[{"Name":"Products","ConnectionProperties":{"DataProvider":"JSONEMBED","ConnectString":"jsondata={\\n  \"Data\": [\\n    {\\n      \"ProductId\": 1,\\n      \"ProductName\": \"Chai\",\\n      \"QuantityPerUnit\": \"10 boxes x 20 bags\",\\n      \"UnitPrice\": 18,\\n      \"UnitsInStock\": 39,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 2,\\n      \"ProductName\": \"Chang\",\\n      \"QuantityPerUnit\": \"24 - 12 oz bottles\",\\n      \"UnitPrice\": 19,\\n      \"UnitsInStock\": 17,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 3,\\n      \"ProductName\": \"Aniseed Syrup\",\\n      \"QuantityPerUnit\": \"12 - 550 ml bottles\",\\n      \"UnitPrice\": 10,\\n      \"UnitsInStock\": 13,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 4,\\n      \"ProductName\": \"Chef Anton's Cajun Seasoning\",\\n      \"QuantityPerUnit\": \"48 - 6 oz jars\",\\n      \"UnitPrice\": 22,\\n      \"UnitsInStock\": 53,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 5,\\n      \"ProductName\": \"Chef Anton's Gumbo Mix\",\\n      \"QuantityPerUnit\": \"36 boxes\",\\n      \"UnitPrice\": 21.35,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 6,\\n      \"ProductName\": \"Grandma's Boysenberry Spread\",\\n      \"QuantityPerUnit\": \"12 - 8 oz jars\",\\n      \"UnitPrice\": 25,\\n      \"UnitsInStock\": 120,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 7,\\n      \"ProductName\": \"Uncle Bob's Organic Dried Pears\",\\n      \"QuantityPerUnit\": \"12 - 1 lb pkgs.\",\\n      \"UnitPrice\": 30,\\n      \"UnitsInStock\": 15,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 8,\\n      \"ProductName\": \"Northwoods Cranberry Sauce\",\\n      \"QuantityPerUnit\": \"12 - 12 oz jars\",\\n      \"UnitPrice\": 40,\\n      \"UnitsInStock\": 6,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 9,\\n      \"ProductName\": \"Mishi Kobe Niku\",\\n      \"QuantityPerUnit\": \"18 - 500 g pkgs.\",\\n      \"UnitPrice\": 97,\\n      \"UnitsInStock\": 29,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 10,\\n      \"ProductName\": \"Ikura\",\\n      \"QuantityPerUnit\": \"12 - 200 ml jars\",\\n      \"UnitPrice\": 31,\\n      \"UnitsInStock\": 31,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 11,\\n      \"ProductName\": \"Queso Cabrales\",\\n      \"QuantityPerUnit\": \"1 kg pkg.\",\\n      \"UnitPrice\": 21,\\n      \"UnitsInStock\": 22,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 12,\\n      \"ProductName\": \"Queso Manchego La Pastora\",\\n      \"QuantityPerUnit\": \"10 - 500 g pkgs.\",\\n      \"UnitPrice\": 38,\\n      \"UnitsInStock\": 86,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 13,\\n      \"ProductName\": \"Konbu\",\\n      \"QuantityPerUnit\": \"2 kg box\",\\n      \"UnitPrice\": 6,\\n      \"UnitsInStock\": 24,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 14,\\n      \"ProductName\": \"Tofu\",\\n      \"QuantityPerUnit\": \"40 - 100 g pkgs.\",\\n      \"UnitPrice\": 23.25,\\n      \"UnitsInStock\": 35,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 15,\\n      \"ProductName\": \"Genen Shouyu\",\\n      \"QuantityPerUnit\": \"24 - 250 ml bottles\",\\n      \"UnitPrice\": 15.5,\\n      \"UnitsInStock\": 39,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 16,\\n      \"ProductName\": \"Pavlova\",\\n      \"QuantityPerUnit\": \"32 - 500 g boxes\",\\n      \"UnitPrice\": 17.45,\\n      \"UnitsInStock\": 29,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 17,\\n      \"ProductName\": \"Alice Mutton\",\\n      \"QuantityPerUnit\": \"20 - 1 kg tins\",\\n      \"UnitPrice\": 39,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 18,\\n      \"ProductName\": \"Carnarvon Tigers\",\\n      \"QuantityPerUnit\": \"16 kg pkg.\",\\n      \"UnitPrice\": 62.5,\\n      \"UnitsInStock\": 42,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 19,\\n      \"ProductName\": \"Teatime Chocolate Biscuits\",\\n      \"QuantityPerUnit\": \"10 boxes x 12 pieces\",\\n      \"UnitPrice\": 9.2,\\n      \"UnitsInStock\": 25,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 20,\\n      \"ProductName\": \"Sir Rodney's Marmalade\",\\n      \"QuantityPerUnit\": \"30 gift boxes\",\\n      \"UnitPrice\": 81,\\n      \"UnitsInStock\": 40,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 21,\\n      \"ProductName\": \"Sir Rodney's Scones\",\\n      \"QuantityPerUnit\": \"24 pkgs. x 4 pieces\",\\n      \"UnitPrice\": 10,\\n      \"UnitsInStock\": 3,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 22,\\n      \"ProductName\": \"Gustaf's Knäckebröd\",\\n      \"QuantityPerUnit\": \"24 - 500 g pkgs.\",\\n      \"UnitPrice\": 21,\\n      \"UnitsInStock\": 104,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 23,\\n      \"ProductName\": \"Tunnbröd\",\\n      \"QuantityPerUnit\": \"12 - 250 g pkgs.\",\\n      \"UnitPrice\": 9,\\n      \"UnitsInStock\": 61,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 24,\\n      \"ProductName\": \"Guaraná Fantástica\",\\n      \"QuantityPerUnit\": \"12 - 355 ml cans\",\\n      \"UnitPrice\": 4.5,\\n      \"UnitsInStock\": 20,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 25,\\n      \"ProductName\": \"NuNuCa Nuß-Nougat-Creme\",\\n      \"QuantityPerUnit\": \"20 - 450 g glasses\",\\n      \"UnitPrice\": 14,\\n      \"UnitsInStock\": 76,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 26,\\n      \"ProductName\": \"Gumbär Gummibärchen\",\\n      \"QuantityPerUnit\": \"100 - 250 g bags\",\\n      \"UnitPrice\": 31.23,\\n      \"UnitsInStock\": 15,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 27,\\n      \"ProductName\": \"Schoggi Schokolade\",\\n      \"QuantityPerUnit\": \"100 - 100 g pieces\",\\n      \"UnitPrice\": 43.9,\\n      \"UnitsInStock\": 49,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 28,\\n      \"ProductName\": \"Rössle Sauerkraut\",\\n      \"QuantityPerUnit\": \"25 - 825 g cans\",\\n      \"UnitPrice\": 45.6,\\n      \"UnitsInStock\": 26,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 29,\\n      \"ProductName\": \"Thüringer Rostbratwurst\",\\n      \"QuantityPerUnit\": \"50 bags x 30 sausgs.\",\\n      \"UnitPrice\": 123.79,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 30,\\n      \"ProductName\": \"Nord-Ost Matjeshering\",\\n      \"QuantityPerUnit\": \"10 - 200 g glasses\",\\n      \"UnitPrice\": 25.89,\\n      \"UnitsInStock\": 10,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 31,\\n      \"ProductName\": \"Gorgonzola Telino\",\\n      \"QuantityPerUnit\": \"12 - 100 g pkgs\",\\n      \"UnitPrice\": 12.5,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 32,\\n      \"ProductName\": \"Mascarpone Fabioli\",\\n      \"QuantityPerUnit\": \"24 - 200 g pkgs.\",\\n      \"UnitPrice\": 32,\\n      \"UnitsInStock\": 9,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 33,\\n      \"ProductName\": \"Geitost\",\\n      \"QuantityPerUnit\": \"500 g\",\\n      \"UnitPrice\": 2.5,\\n      \"UnitsInStock\": 112,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 34,\\n      \"ProductName\": \"Sasquatch Ale\",\\n      \"QuantityPerUnit\": \"24 - 12 oz bottles\",\\n      \"UnitPrice\": 14,\\n      \"UnitsInStock\": 111,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 35,\\n      \"ProductName\": \"Steeleye Stout\",\\n      \"QuantityPerUnit\": \"24 - 12 oz bottles\",\\n      \"UnitPrice\": 18,\\n      \"UnitsInStock\": 20,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 36,\\n      \"ProductName\": \"Inlagd Sill\",\\n      \"QuantityPerUnit\": \"24 - 250 g jars\",\\n      \"UnitPrice\": 19,\\n      \"UnitsInStock\": 112,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 37,\\n      \"ProductName\": \"Gravad lax\",\\n      \"QuantityPerUnit\": \"12 - 500 g pkgs.\",\\n      \"UnitPrice\": 26,\\n      \"UnitsInStock\": 11,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 38,\\n      \"ProductName\": \"Côte de Blaye\",\\n      \"QuantityPerUnit\": \"12 - 75 cl bottles\",\\n      \"UnitPrice\": 263.5,\\n      \"UnitsInStock\": 17,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 39,\\n      \"ProductName\": \"Chartreuse verte\",\\n      \"QuantityPerUnit\": \"750 cc per bottle\",\\n      \"UnitPrice\": 18,\\n      \"UnitsInStock\": 69,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 40,\\n      \"ProductName\": \"Boston Crab Meat\",\\n      \"QuantityPerUnit\": \"24 - 4 oz tins\",\\n      \"UnitPrice\": 18.4,\\n      \"UnitsInStock\": 123,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 41,\\n      \"ProductName\": \"Jack's New England Clam Chowder\",\\n      \"QuantityPerUnit\": \"12 - 12 oz cans\",\\n      \"UnitPrice\": 9.65,\\n      \"UnitsInStock\": 85,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 42,\\n      \"ProductName\": \"Singaporean Hokkien Fried Mee\",\\n      \"QuantityPerUnit\": \"32 - 1 kg pkgs.\",\\n      \"UnitPrice\": 14,\\n      \"UnitsInStock\": 26,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 43,\\n      \"ProductName\": \"Ipoh Coffee\",\\n      \"QuantityPerUnit\": \"16 - 500 g tins\",\\n      \"UnitPrice\": 46,\\n      \"UnitsInStock\": 17,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 44,\\n      \"ProductName\": \"Gula Malacca\",\\n      \"QuantityPerUnit\": \"20 - 2 kg bags\",\\n      \"UnitPrice\": 19.45,\\n      \"UnitsInStock\": 27,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 45,\\n      \"ProductName\": \"Rogede sild\",\\n      \"QuantityPerUnit\": \"1k pkg.\",\\n      \"UnitPrice\": 9.5,\\n      \"UnitsInStock\": 5,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 46,\\n      \"ProductName\": \"Spegesild\",\\n      \"QuantityPerUnit\": \"4 - 450 g glasses\",\\n      \"UnitPrice\": 12,\\n      \"UnitsInStock\": 95,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 47,\\n      \"ProductName\": \"Zaanse koeken\",\\n      \"QuantityPerUnit\": \"10 - 4 oz boxes\",\\n      \"UnitPrice\": 9.5,\\n      \"UnitsInStock\": 36,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 48,\\n      \"ProductName\": \"Chocolade\",\\n      \"QuantityPerUnit\": \"10 pkgs.\",\\n      \"UnitPrice\": 12.75,\\n      \"UnitsInStock\": 15,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 49,\\n      \"ProductName\": \"Maxilaku\",\\n      \"QuantityPerUnit\": \"24 - 50 g pkgs.\",\\n      \"UnitPrice\": 20,\\n      \"UnitsInStock\": 10,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 50,\\n      \"ProductName\": \"Valkoinen suklaa\",\\n      \"QuantityPerUnit\": \"12 - 100 g bars\",\\n      \"UnitPrice\": 16.25,\\n      \"UnitsInStock\": 65,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 51,\\n      \"ProductName\": \"Manjimup Dried Apples\",\\n      \"QuantityPerUnit\": \"50 - 300 g pkgs.\",\\n      \"UnitPrice\": 53,\\n      \"UnitsInStock\": 20,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 52,\\n      \"ProductName\": \"Filo Mix\",\\n      \"QuantityPerUnit\": \"16 - 2 kg boxes\",\\n      \"UnitPrice\": 7,\\n      \"UnitsInStock\": 38,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 53,\\n      \"ProductName\": \"Perth Pasties\",\\n      \"QuantityPerUnit\": \"48 pieces\",\\n      \"UnitPrice\": 32.8,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 54,\\n      \"ProductName\": \"Tourtière\",\\n      \"QuantityPerUnit\": \"16 pies\",\\n      \"UnitPrice\": 7.45,\\n      \"UnitsInStock\": 21,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 55,\\n      \"ProductName\": \"Pâté chinois\",\\n      \"QuantityPerUnit\": \"24 boxes x 2 pies\",\\n      \"UnitPrice\": 24,\\n      \"UnitsInStock\": 115,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 56,\\n      \"ProductName\": \"Gnocchi di nonna Alice\",\\n      \"QuantityPerUnit\": \"24 - 250 g pkgs.\",\\n      \"UnitPrice\": 38,\\n      \"UnitsInStock\": 21,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 57,\\n      \"ProductName\": \"Ravioli Angelo\",\\n      \"QuantityPerUnit\": \"24 - 250 g pkgs.\",\\n      \"UnitPrice\": 19.5,\\n      \"UnitsInStock\": 36,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 58,\\n      \"ProductName\": \"Escargots de Bourgogne\",\\n      \"QuantityPerUnit\": \"24 pieces\",\\n      \"UnitPrice\": 13.25,\\n      \"UnitsInStock\": 62,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 59,\\n      \"ProductName\": \"Raclette Courdavault\",\\n      \"QuantityPerUnit\": \"5 kg pkg.\",\\n      \"UnitPrice\": 55,\\n      \"UnitsInStock\": 79,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 60,\\n      \"ProductName\": \"Camembert Pierrot\",\\n      \"QuantityPerUnit\": \"15 - 300 g rounds\",\\n      \"UnitPrice\": 34,\\n      \"UnitsInStock\": 19,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 61,\\n      \"ProductName\": \"Sirop d'érable\",\\n      \"QuantityPerUnit\": \"24 - 500 ml bottles\",\\n      \"UnitPrice\": 28.5,\\n      \"UnitsInStock\": 113,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 62,\\n      \"ProductName\": \"Tarte au sucre\",\\n      \"QuantityPerUnit\": \"48 pies\",\\n      \"UnitPrice\": 49.3,\\n      \"UnitsInStock\": 17,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 63,\\n      \"ProductName\": \"Vegie-spread\",\\n      \"QuantityPerUnit\": \"15 - 625 g jars\",\\n      \"UnitPrice\": 43.9,\\n      \"UnitsInStock\": 24,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 64,\\n      \"ProductName\": \"Wimmers gute Semmelknödel\",\\n      \"QuantityPerUnit\": \"20 bags x 4 pieces\",\\n      \"UnitPrice\": 33.25,\\n      \"UnitsInStock\": 22,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 65,\\n      \"ProductName\": \"Louisiana Fiery Hot Pepper Sauce\",\\n      \"QuantityPerUnit\": \"32 - 8 oz bottles\",\\n      \"UnitPrice\": 21.05,\\n      \"UnitsInStock\": 76,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 66,\\n      \"ProductName\": \"Louisiana Hot Spiced Okra\",\\n      \"QuantityPerUnit\": \"24 - 8 oz jars\",\\n      \"UnitPrice\": 17,\\n      \"UnitsInStock\": 4,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 67,\\n      \"ProductName\": \"Laughing Lumberjack Lager\",\\n      \"QuantityPerUnit\": \"24 - 12 oz bottles\",\\n      \"UnitPrice\": 14,\\n      \"UnitsInStock\": 52,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 68,\\n      \"ProductName\": \"Scottish Longbreads\",\\n      \"QuantityPerUnit\": \"10 boxes x 8 pieces\",\\n      \"UnitPrice\": 12.5,\\n      \"UnitsInStock\": 6,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 69,\\n      \"ProductName\": \"Gudbrandsdalsost\",\\n      \"QuantityPerUnit\": \"10 kg pkg.\",\\n      \"UnitPrice\": 36,\\n      \"UnitsInStock\": 26,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 70,\\n      \"ProductName\": \"Outback Lager\",\\n      \"QuantityPerUnit\": \"24 - 355 ml bottles\",\\n      \"UnitPrice\": 15,\\n      \"UnitsInStock\": 15,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 71,\\n      \"ProductName\": \"Flotemysost\",\\n      \"QuantityPerUnit\": \"10 - 500 g pkgs.\",\\n      \"UnitPrice\": 21.5,\\n      \"UnitsInStock\": 26,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 72,\\n      \"ProductName\": \"Mozzarella di Giovanni\",\\n      \"QuantityPerUnit\": \"24 - 200 g pkgs.\",\\n      \"UnitPrice\": 34.8,\\n      \"UnitsInStock\": 14,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 73,\\n      \"ProductName\": \"Röd Kaviar\",\\n      \"QuantityPerUnit\": \"24 - 150 g jars\",\\n      \"UnitPrice\": 15,\\n      \"UnitsInStock\": 101,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 74,\\n      \"ProductName\": \"Longlife Tofu\",\\n      \"QuantityPerUnit\": \"5 kg pkg.\",\\n      \"UnitPrice\": 10,\\n      \"UnitsInStock\": 4,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 75,\\n      \"ProductName\": \"Rhönbräu Klosterbier\",\\n      \"QuantityPerUnit\": \"24 - 0.5 l bottles\",\\n      \"UnitPrice\": 7.75,\\n      \"UnitsInStock\": 125,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 76,\\n      \"ProductName\": \"Lakkalikööri\",\\n      \"QuantityPerUnit\": \"500 ml\",\\n      \"UnitPrice\": 18,\\n      \"UnitsInStock\": 57,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 77,\\n      \"ProductName\": \"Original Frankfurter grüne Soße\",\\n      \"QuantityPerUnit\": \"12 boxes\",\\n      \"UnitPrice\": 13,\\n      \"UnitsInStock\": 32,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    }\\n  ]\\n}"}}],"Body":{"Height":"4.5in","ReportItems":[{"Type":"dvchart","Name":"Chart1","DataSetName":"DataSet","Style":{"PaddingLeft":"2pt","PaddingRight":"2pt","PaddingTop":"2pt","PaddingBottom":"2pt"},"Header":{"Style":{"PaddingTop":"4pt","PaddingBottom":"2pt"},"TextStyle":{"FontWeight":"Bold"},"Title":"Products"},"Footer":{"Style":{"PaddingTop":"2pt","PaddingBottom":"4pt"}},"Legend":{"Orientation":"Vertical","Position":"Top","Style":{"PaddingRight":"10pt","PaddingTop":"4pt","PaddingBottom":"2pt"}},"PlotArea":{"Axes":[{"LabelAngle":-45,"LabelStyle":{"PaddingLeft":"2pt","PaddingRight":"2pt","PaddingTop":"2pt","PaddingBottom":"2pt"},"LineStyle":{"Border":{"Style":"Solid"}},"MajorGridStyle":{"Border":{"Color":"Gray","Style":"Solid"}},"Plots":["Plot 1","Plot 2"],"Title":"Category Name","TitleStyle":{"PaddingLeft":"2pt","PaddingRight":"2pt","PaddingTop":"2pt","PaddingBottom":"2pt"}},{"AxisType":"Y","Format":"c2","LabelStyle":{"PaddingLeft":"2pt","PaddingRight":"2pt","PaddingTop":"2pt","PaddingBottom":"2pt"},"LineStyle":{"Border":{"Style":"Solid"}},"MajorGrid":true,"MajorGridStyle":{"Border":{"Color":"Gray","Style":"Solid"}},"Plots":["Plot 1","Plot 2"],"Title":"Unit Price","TitleStyle":{"PaddingLeft":"2pt","PaddingRight":"2pt","PaddingTop":"2pt","PaddingBottom":"2pt"}},{"LabelStyle":{"PaddingLeft":"2pt","PaddingRight":"2pt","PaddingTop":"2pt","PaddingBottom":"2pt"},"LineStyle":{"Border":{"Style":"Solid"}},"MajorGridStyle":{"Border":{"Color":"Gray","Style":"Solid"}},"Plots":["Plot 2"],"Title":"Category Name","TitleStyle":{"PaddingLeft":"2pt","PaddingRight":"2pt","PaddingTop":"2pt","PaddingBottom":"2pt"}},{"AxisType":"Y","Format":"c2","LabelStyle":{"PaddingLeft":"2pt","PaddingRight":"2pt","PaddingTop":"2pt","PaddingBottom":"2pt"},"LineStyle":{"Border":{"Style":"Solid"}},"MajorGridStyle":{"Border":{"Color":"Gray","Style":"Solid"}},"Plots":["Plot 2"],"Title":"Unit Price","TitleStyle":{"PaddingLeft":"2pt","PaddingRight":"2pt","PaddingTop":"2pt","PaddingBottom":"2pt"}}],"Legends":[{"Orientation":"Vertical","Style":{"PaddingRight":"10pt","PaddingTop":"4pt","PaddingBottom":"2pt"}}]},"Plots":[{"PlotName":"Plot 1","Encodings":{"Values":[{"Field":{"FieldType":"Simple","Value":["=Fields!UnitsInStock.Value"],"Captions":["Units In Stock"]}}],"Category":{"Field":{"FieldType":"Simple","Value":["=Fields!CategoryName.Value"],"Captions":[""]}},"Color":{"Field":{"FieldType":"Simple","Value":["VALUESNAME"],"Captions":[""]}},"Shape":{"Field":{"FieldType":"Simple"}},"Size":{"Field":{"FieldType":"Simple"}}},"PlotChartType":"Column","PlotChartSubtype":"Clustered"},{"PlotName":"Plot 2","Encodings":{"Values":[{"Field":{"FieldType":"Simple","Value":["=Fields!UnitPrice.Value"],"Captions":["Unit Price"]}}],"Category":{"Field":{"FieldType":"Simple","Value":["=Fields!CategoryName.Value"],"Captions":[""]}},"Color":{"Field":{"FieldType":"Simple","Value":["VALUESNAME"],"Captions":[""]}},"Shape":{"Field":{"FieldType":"Simple"}},"Size":{"Field":{"FieldType":"Simple"}}},"Config":{"Action":{"Drillthrough":{"ReportName":"Tutorial 4 - Master-Detail Report.rdlx-json","Parameters":[{"ParameterName":"Parameter1","Value":"1"}]}}},"PlotChartType":"Column","PlotChartSubtype":"Clustered"}],"Width":"6.5in","Height":"4.5in"}]},"DataSets":[{"Name":"DataSet","Fields":[{"Name":"ProductId","DataField":"ProductId"},{"Name":"ProductName","DataField":"ProductName"},{"Name":"QuantityPerUnit","DataField":"QuantityPerUnit"},{"Name":"UnitPrice","DataField":"UnitPrice"},{"Name":"UnitsInStock","DataField":"UnitsInStock"},{"Name":"ReorderLevel","DataField":"ReorderLevel"},{"Name":"Discontinued","DataField":"Discontinued"},{"Name":"CategoryId","DataField":"CategoryId"},{"Name":"CategoryName","DataField":"CategoryName"},{"Name":"Description","DataField":"Description"}],"Query":{"DataSourceName":"Products","CommandText":"jpath=$.Data[*]"},"CaseSensitivity":"Auto","KanatypeSensitivity":"Auto","AccentSensitivity":"Auto","WidthSensitivity":"Auto"}]}
+{
+  "Name": "Report",
+  "Width": "6.5in",
+  "Layers": [
+    {
+      "Name": "default"
+    }
+  ],
+  "CustomProperties": [
+    {
+      "Name": "DisplayType",
+      "Value": "Page"
+    },
+    {
+      "Name": "SizeType",
+      "Value": "Default"
+    },
+    {
+      "Name": "PaperOrientation",
+      "Value": "Portrait"
+    }
+  ],
+  "Page": {
+    "PageWidth": "8.5in",
+    "PageHeight": "11in",
+    "RightMargin": "1in",
+    "LeftMargin": "1in",
+    "TopMargin": "1in",
+    "BottomMargin": "1in",
+    "Columns": 1,
+    "ColumnSpacing": "0in"
+  },
+  "DataSources": [
+    {
+      "Name": "Products",
+      "ConnectionProperties": {
+        "DataProvider": "JSONEMBED",
+        "ConnectString": "jsondata={\\n  \"Data\": [\\n    {\\n      \"ProductId\": 1,\\n      \"ProductName\": \"Chai\",\\n      \"QuantityPerUnit\": \"10 boxes x 20 bags\",\\n      \"UnitPrice\": 18,\\n      \"UnitsInStock\": 39,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 2,\\n      \"ProductName\": \"Chang\",\\n      \"QuantityPerUnit\": \"24 - 12 oz bottles\",\\n      \"UnitPrice\": 19,\\n      \"UnitsInStock\": 17,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 3,\\n      \"ProductName\": \"Aniseed Syrup\",\\n      \"QuantityPerUnit\": \"12 - 550 ml bottles\",\\n      \"UnitPrice\": 10,\\n      \"UnitsInStock\": 13,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 4,\\n      \"ProductName\": \"Chef Anton's Cajun Seasoning\",\\n      \"QuantityPerUnit\": \"48 - 6 oz jars\",\\n      \"UnitPrice\": 22,\\n      \"UnitsInStock\": 53,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 5,\\n      \"ProductName\": \"Chef Anton's Gumbo Mix\",\\n      \"QuantityPerUnit\": \"36 boxes\",\\n      \"UnitPrice\": 21.35,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 6,\\n      \"ProductName\": \"Grandma's Boysenberry Spread\",\\n      \"QuantityPerUnit\": \"12 - 8 oz jars\",\\n      \"UnitPrice\": 25,\\n      \"UnitsInStock\": 120,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 7,\\n      \"ProductName\": \"Uncle Bob's Organic Dried Pears\",\\n      \"QuantityPerUnit\": \"12 - 1 lb pkgs.\",\\n      \"UnitPrice\": 30,\\n      \"UnitsInStock\": 15,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 8,\\n      \"ProductName\": \"Northwoods Cranberry Sauce\",\\n      \"QuantityPerUnit\": \"12 - 12 oz jars\",\\n      \"UnitPrice\": 40,\\n      \"UnitsInStock\": 6,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 9,\\n      \"ProductName\": \"Mishi Kobe Niku\",\\n      \"QuantityPerUnit\": \"18 - 500 g pkgs.\",\\n      \"UnitPrice\": 97,\\n      \"UnitsInStock\": 29,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 10,\\n      \"ProductName\": \"Ikura\",\\n      \"QuantityPerUnit\": \"12 - 200 ml jars\",\\n      \"UnitPrice\": 31,\\n      \"UnitsInStock\": 31,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 11,\\n      \"ProductName\": \"Queso Cabrales\",\\n      \"QuantityPerUnit\": \"1 kg pkg.\",\\n      \"UnitPrice\": 21,\\n      \"UnitsInStock\": 22,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 12,\\n      \"ProductName\": \"Queso Manchego La Pastora\",\\n      \"QuantityPerUnit\": \"10 - 500 g pkgs.\",\\n      \"UnitPrice\": 38,\\n      \"UnitsInStock\": 86,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 13,\\n      \"ProductName\": \"Konbu\",\\n      \"QuantityPerUnit\": \"2 kg box\",\\n      \"UnitPrice\": 6,\\n      \"UnitsInStock\": 24,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 14,\\n      \"ProductName\": \"Tofu\",\\n      \"QuantityPerUnit\": \"40 - 100 g pkgs.\",\\n      \"UnitPrice\": 23.25,\\n      \"UnitsInStock\": 35,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 15,\\n      \"ProductName\": \"Genen Shouyu\",\\n      \"QuantityPerUnit\": \"24 - 250 ml bottles\",\\n      \"UnitPrice\": 15.5,\\n      \"UnitsInStock\": 39,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 16,\\n      \"ProductName\": \"Pavlova\",\\n      \"QuantityPerUnit\": \"32 - 500 g boxes\",\\n      \"UnitPrice\": 17.45,\\n      \"UnitsInStock\": 29,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 17,\\n      \"ProductName\": \"Alice Mutton\",\\n      \"QuantityPerUnit\": \"20 - 1 kg tins\",\\n      \"UnitPrice\": 39,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 18,\\n      \"ProductName\": \"Carnarvon Tigers\",\\n      \"QuantityPerUnit\": \"16 kg pkg.\",\\n      \"UnitPrice\": 62.5,\\n      \"UnitsInStock\": 42,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 19,\\n      \"ProductName\": \"Teatime Chocolate Biscuits\",\\n      \"QuantityPerUnit\": \"10 boxes x 12 pieces\",\\n      \"UnitPrice\": 9.2,\\n      \"UnitsInStock\": 25,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 20,\\n      \"ProductName\": \"Sir Rodney's Marmalade\",\\n      \"QuantityPerUnit\": \"30 gift boxes\",\\n      \"UnitPrice\": 81,\\n      \"UnitsInStock\": 40,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 21,\\n      \"ProductName\": \"Sir Rodney's Scones\",\\n      \"QuantityPerUnit\": \"24 pkgs. x 4 pieces\",\\n      \"UnitPrice\": 10,\\n      \"UnitsInStock\": 3,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 22,\\n      \"ProductName\": \"Gustaf's Knäckebröd\",\\n      \"QuantityPerUnit\": \"24 - 500 g pkgs.\",\\n      \"UnitPrice\": 21,\\n      \"UnitsInStock\": 104,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 23,\\n      \"ProductName\": \"Tunnbröd\",\\n      \"QuantityPerUnit\": \"12 - 250 g pkgs.\",\\n      \"UnitPrice\": 9,\\n      \"UnitsInStock\": 61,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 24,\\n      \"ProductName\": \"Guaraná Fantástica\",\\n      \"QuantityPerUnit\": \"12 - 355 ml cans\",\\n      \"UnitPrice\": 4.5,\\n      \"UnitsInStock\": 20,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 25,\\n      \"ProductName\": \"NuNuCa Nuß-Nougat-Creme\",\\n      \"QuantityPerUnit\": \"20 - 450 g glasses\",\\n      \"UnitPrice\": 14,\\n      \"UnitsInStock\": 76,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 26,\\n      \"ProductName\": \"Gumbär Gummibärchen\",\\n      \"QuantityPerUnit\": \"100 - 250 g bags\",\\n      \"UnitPrice\": 31.23,\\n      \"UnitsInStock\": 15,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 27,\\n      \"ProductName\": \"Schoggi Schokolade\",\\n      \"QuantityPerUnit\": \"100 - 100 g pieces\",\\n      \"UnitPrice\": 43.9,\\n      \"UnitsInStock\": 49,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 28,\\n      \"ProductName\": \"Rössle Sauerkraut\",\\n      \"QuantityPerUnit\": \"25 - 825 g cans\",\\n      \"UnitPrice\": 45.6,\\n      \"UnitsInStock\": 26,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 29,\\n      \"ProductName\": \"Thüringer Rostbratwurst\",\\n      \"QuantityPerUnit\": \"50 bags x 30 sausgs.\",\\n      \"UnitPrice\": 123.79,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 30,\\n      \"ProductName\": \"Nord-Ost Matjeshering\",\\n      \"QuantityPerUnit\": \"10 - 200 g glasses\",\\n      \"UnitPrice\": 25.89,\\n      \"UnitsInStock\": 10,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 31,\\n      \"ProductName\": \"Gorgonzola Telino\",\\n      \"QuantityPerUnit\": \"12 - 100 g pkgs\",\\n      \"UnitPrice\": 12.5,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 32,\\n      \"ProductName\": \"Mascarpone Fabioli\",\\n      \"QuantityPerUnit\": \"24 - 200 g pkgs.\",\\n      \"UnitPrice\": 32,\\n      \"UnitsInStock\": 9,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 33,\\n      \"ProductName\": \"Geitost\",\\n      \"QuantityPerUnit\": \"500 g\",\\n      \"UnitPrice\": 2.5,\\n      \"UnitsInStock\": 112,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 34,\\n      \"ProductName\": \"Sasquatch Ale\",\\n      \"QuantityPerUnit\": \"24 - 12 oz bottles\",\\n      \"UnitPrice\": 14,\\n      \"UnitsInStock\": 111,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 35,\\n      \"ProductName\": \"Steeleye Stout\",\\n      \"QuantityPerUnit\": \"24 - 12 oz bottles\",\\n      \"UnitPrice\": 18,\\n      \"UnitsInStock\": 20,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 36,\\n      \"ProductName\": \"Inlagd Sill\",\\n      \"QuantityPerUnit\": \"24 - 250 g jars\",\\n      \"UnitPrice\": 19,\\n      \"UnitsInStock\": 112,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 37,\\n      \"ProductName\": \"Gravad lax\",\\n      \"QuantityPerUnit\": \"12 - 500 g pkgs.\",\\n      \"UnitPrice\": 26,\\n      \"UnitsInStock\": 11,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 38,\\n      \"ProductName\": \"Côte de Blaye\",\\n      \"QuantityPerUnit\": \"12 - 75 cl bottles\",\\n      \"UnitPrice\": 263.5,\\n      \"UnitsInStock\": 17,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 39,\\n      \"ProductName\": \"Chartreuse verte\",\\n      \"QuantityPerUnit\": \"750 cc per bottle\",\\n      \"UnitPrice\": 18,\\n      \"UnitsInStock\": 69,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 40,\\n      \"ProductName\": \"Boston Crab Meat\",\\n      \"QuantityPerUnit\": \"24 - 4 oz tins\",\\n      \"UnitPrice\": 18.4,\\n      \"UnitsInStock\": 123,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 41,\\n      \"ProductName\": \"Jack's New England Clam Chowder\",\\n      \"QuantityPerUnit\": \"12 - 12 oz cans\",\\n      \"UnitPrice\": 9.65,\\n      \"UnitsInStock\": 85,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 42,\\n      \"ProductName\": \"Singaporean Hokkien Fried Mee\",\\n      \"QuantityPerUnit\": \"32 - 1 kg pkgs.\",\\n      \"UnitPrice\": 14,\\n      \"UnitsInStock\": 26,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 43,\\n      \"ProductName\": \"Ipoh Coffee\",\\n      \"QuantityPerUnit\": \"16 - 500 g tins\",\\n      \"UnitPrice\": 46,\\n      \"UnitsInStock\": 17,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 44,\\n      \"ProductName\": \"Gula Malacca\",\\n      \"QuantityPerUnit\": \"20 - 2 kg bags\",\\n      \"UnitPrice\": 19.45,\\n      \"UnitsInStock\": 27,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 45,\\n      \"ProductName\": \"Rogede sild\",\\n      \"QuantityPerUnit\": \"1k pkg.\",\\n      \"UnitPrice\": 9.5,\\n      \"UnitsInStock\": 5,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 46,\\n      \"ProductName\": \"Spegesild\",\\n      \"QuantityPerUnit\": \"4 - 450 g glasses\",\\n      \"UnitPrice\": 12,\\n      \"UnitsInStock\": 95,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 47,\\n      \"ProductName\": \"Zaanse koeken\",\\n      \"QuantityPerUnit\": \"10 - 4 oz boxes\",\\n      \"UnitPrice\": 9.5,\\n      \"UnitsInStock\": 36,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 48,\\n      \"ProductName\": \"Chocolade\",\\n      \"QuantityPerUnit\": \"10 pkgs.\",\\n      \"UnitPrice\": 12.75,\\n      \"UnitsInStock\": 15,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 49,\\n      \"ProductName\": \"Maxilaku\",\\n      \"QuantityPerUnit\": \"24 - 50 g pkgs.\",\\n      \"UnitPrice\": 20,\\n      \"UnitsInStock\": 10,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 50,\\n      \"ProductName\": \"Valkoinen suklaa\",\\n      \"QuantityPerUnit\": \"12 - 100 g bars\",\\n      \"UnitPrice\": 16.25,\\n      \"UnitsInStock\": 65,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 51,\\n      \"ProductName\": \"Manjimup Dried Apples\",\\n      \"QuantityPerUnit\": \"50 - 300 g pkgs.\",\\n      \"UnitPrice\": 53,\\n      \"UnitsInStock\": 20,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 52,\\n      \"ProductName\": \"Filo Mix\",\\n      \"QuantityPerUnit\": \"16 - 2 kg boxes\",\\n      \"UnitPrice\": 7,\\n      \"UnitsInStock\": 38,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 53,\\n      \"ProductName\": \"Perth Pasties\",\\n      \"QuantityPerUnit\": \"48 pieces\",\\n      \"UnitPrice\": 32.8,\\n      \"UnitsInStock\": 0,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": true,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 54,\\n      \"ProductName\": \"Tourtière\",\\n      \"QuantityPerUnit\": \"16 pies\",\\n      \"UnitPrice\": 7.45,\\n      \"UnitsInStock\": 21,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 55,\\n      \"ProductName\": \"Pâté chinois\",\\n      \"QuantityPerUnit\": \"24 boxes x 2 pies\",\\n      \"UnitPrice\": 24,\\n      \"UnitsInStock\": 115,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 6,\\n      \"CategoryName\": \"Meat/Poultry\",\\n      \"Description\": \"Prepared meats\"\\n    },\\n    {\\n      \"ProductId\": 56,\\n      \"ProductName\": \"Gnocchi di nonna Alice\",\\n      \"QuantityPerUnit\": \"24 - 250 g pkgs.\",\\n      \"UnitPrice\": 38,\\n      \"UnitsInStock\": 21,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 57,\\n      \"ProductName\": \"Ravioli Angelo\",\\n      \"QuantityPerUnit\": \"24 - 250 g pkgs.\",\\n      \"UnitPrice\": 19.5,\\n      \"UnitsInStock\": 36,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 58,\\n      \"ProductName\": \"Escargots de Bourgogne\",\\n      \"QuantityPerUnit\": \"24 pieces\",\\n      \"UnitPrice\": 13.25,\\n      \"UnitsInStock\": 62,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 59,\\n      \"ProductName\": \"Raclette Courdavault\",\\n      \"QuantityPerUnit\": \"5 kg pkg.\",\\n      \"UnitPrice\": 55,\\n      \"UnitsInStock\": 79,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 60,\\n      \"ProductName\": \"Camembert Pierrot\",\\n      \"QuantityPerUnit\": \"15 - 300 g rounds\",\\n      \"UnitPrice\": 34,\\n      \"UnitsInStock\": 19,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 61,\\n      \"ProductName\": \"Sirop d'érable\",\\n      \"QuantityPerUnit\": \"24 - 500 ml bottles\",\\n      \"UnitPrice\": 28.5,\\n      \"UnitsInStock\": 113,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 62,\\n      \"ProductName\": \"Tarte au sucre\",\\n      \"QuantityPerUnit\": \"48 pies\",\\n      \"UnitPrice\": 49.3,\\n      \"UnitsInStock\": 17,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 63,\\n      \"ProductName\": \"Vegie-spread\",\\n      \"QuantityPerUnit\": \"15 - 625 g jars\",\\n      \"UnitPrice\": 43.9,\\n      \"UnitsInStock\": 24,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 64,\\n      \"ProductName\": \"Wimmers gute Semmelknödel\",\\n      \"QuantityPerUnit\": \"20 bags x 4 pieces\",\\n      \"UnitPrice\": 33.25,\\n      \"UnitsInStock\": 22,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 5,\\n      \"CategoryName\": \"Grains/Cereals\",\\n      \"Description\": \"Breads, crackers, pasta, and cereal\"\\n    },\\n    {\\n      \"ProductId\": 65,\\n      \"ProductName\": \"Louisiana Fiery Hot Pepper Sauce\",\\n      \"QuantityPerUnit\": \"32 - 8 oz bottles\",\\n      \"UnitPrice\": 21.05,\\n      \"UnitsInStock\": 76,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 66,\\n      \"ProductName\": \"Louisiana Hot Spiced Okra\",\\n      \"QuantityPerUnit\": \"24 - 8 oz jars\",\\n      \"UnitPrice\": 17,\\n      \"UnitsInStock\": 4,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    },\\n    {\\n      \"ProductId\": 67,\\n      \"ProductName\": \"Laughing Lumberjack Lager\",\\n      \"QuantityPerUnit\": \"24 - 12 oz bottles\",\\n      \"UnitPrice\": 14,\\n      \"UnitsInStock\": 52,\\n      \"ReorderLevel\": 10,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 68,\\n      \"ProductName\": \"Scottish Longbreads\",\\n      \"QuantityPerUnit\": \"10 boxes x 8 pieces\",\\n      \"UnitPrice\": 12.5,\\n      \"UnitsInStock\": 6,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 3,\\n      \"CategoryName\": \"Confections\",\\n      \"Description\": \"Desserts, candies, and sweet breads\"\\n    },\\n    {\\n      \"ProductId\": 69,\\n      \"ProductName\": \"Gudbrandsdalsost\",\\n      \"QuantityPerUnit\": \"10 kg pkg.\",\\n      \"UnitPrice\": 36,\\n      \"UnitsInStock\": 26,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 70,\\n      \"ProductName\": \"Outback Lager\",\\n      \"QuantityPerUnit\": \"24 - 355 ml bottles\",\\n      \"UnitPrice\": 15,\\n      \"UnitsInStock\": 15,\\n      \"ReorderLevel\": 30,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 71,\\n      \"ProductName\": \"Flotemysost\",\\n      \"QuantityPerUnit\": \"10 - 500 g pkgs.\",\\n      \"UnitPrice\": 21.5,\\n      \"UnitsInStock\": 26,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 72,\\n      \"ProductName\": \"Mozzarella di Giovanni\",\\n      \"QuantityPerUnit\": \"24 - 200 g pkgs.\",\\n      \"UnitPrice\": 34.8,\\n      \"UnitsInStock\": 14,\\n      \"ReorderLevel\": 0,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 4,\\n      \"CategoryName\": \"Dairy Products\",\\n      \"Description\": \"Cheeses\"\\n    },\\n    {\\n      \"ProductId\": 73,\\n      \"ProductName\": \"Röd Kaviar\",\\n      \"QuantityPerUnit\": \"24 - 150 g jars\",\\n      \"UnitPrice\": 15,\\n      \"UnitsInStock\": 101,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 8,\\n      \"CategoryName\": \"Seafood\",\\n      \"Description\": \"Seaweed and fish\"\\n    },\\n    {\\n      \"ProductId\": 74,\\n      \"ProductName\": \"Longlife Tofu\",\\n      \"QuantityPerUnit\": \"5 kg pkg.\",\\n      \"UnitPrice\": 10,\\n      \"UnitsInStock\": 4,\\n      \"ReorderLevel\": 5,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 7,\\n      \"CategoryName\": \"Produce\",\\n      \"Description\": \"Dried fruit and bean curd\"\\n    },\\n    {\\n      \"ProductId\": 75,\\n      \"ProductName\": \"Rhönbräu Klosterbier\",\\n      \"QuantityPerUnit\": \"24 - 0.5 l bottles\",\\n      \"UnitPrice\": 7.75,\\n      \"UnitsInStock\": 125,\\n      \"ReorderLevel\": 25,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 76,\\n      \"ProductName\": \"Lakkalikööri\",\\n      \"QuantityPerUnit\": \"500 ml\",\\n      \"UnitPrice\": 18,\\n      \"UnitsInStock\": 57,\\n      \"ReorderLevel\": 20,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 1,\\n      \"CategoryName\": \"Beverages\",\\n      \"Description\": \"Soft drinks, coffees, teas, beers, and ales\"\\n    },\\n    {\\n      \"ProductId\": 77,\\n      \"ProductName\": \"Original Frankfurter grüne Soße\",\\n      \"QuantityPerUnit\": \"12 boxes\",\\n      \"UnitPrice\": 13,\\n      \"UnitsInStock\": 32,\\n      \"ReorderLevel\": 15,\\n      \"Discontinued\": false,\\n      \"CategoryId\": 2,\\n      \"CategoryName\": \"Condiments\",\\n      \"Description\": \"Sweet and savory sauces, relishes, spreads, and seasonings\"\\n    }\\n  ]\\n}"
+      }
+    }
+  ],
+  "Body": {
+    "Height": "4.5in",
+    "ReportItems": [
+      {
+        "Type": "dvchart",
+        "Name": "Chart1",
+        "DataSetName": "DataSet",
+        "Style": {
+          "PaddingLeft": "2pt",
+          "PaddingRight": "2pt",
+          "PaddingTop": "2pt",
+          "PaddingBottom": "2pt"
+        },
+        "Header": {
+          "Style": {
+            "PaddingTop": "4pt",
+            "PaddingBottom": "2pt"
+          },
+          "TextStyle": {
+            "FontWeight": "Bold"
+          },
+          "Title": "Products"
+        },
+        "Footer": {
+          "Style": {
+            "PaddingTop": "2pt",
+            "PaddingBottom": "4pt"
+          }
+        },
+        "Legend": {
+          "Orientation": "Vertical",
+          "Position": "Top",
+          "Style": {
+            "PaddingRight": "10pt",
+            "PaddingTop": "4pt",
+            "PaddingBottom": "2pt"
+          }
+        },
+        "PlotArea": {
+          "Axes": [
+            {
+              "LabelAngle": -45,
+              "LabelStyle": {
+                "PaddingLeft": "2pt",
+                "PaddingRight": "2pt",
+                "PaddingTop": "2pt",
+                "PaddingBottom": "2pt"
+              },
+              "LineStyle": {
+                "Border": {
+                  "Style": "Solid"
+                }
+              },
+              "MajorGridStyle": {
+                "Border": {
+                  "Color": "Gray",
+                  "Style": "Solid"
+                }
+              },
+              "Plots": [
+                "Plot 1",
+                "Plot 2"
+              ],
+              "Title": "Category Name",
+              "TitleStyle": {
+                "PaddingLeft": "2pt",
+                "PaddingRight": "2pt",
+                "PaddingTop": "2pt",
+                "PaddingBottom": "2pt"
+              }
+            },
+            {
+              "AxisType": "Y",
+              "Format": "c2",
+              "LabelStyle": {
+                "PaddingLeft": "2pt",
+                "PaddingRight": "2pt",
+                "PaddingTop": "2pt",
+                "PaddingBottom": "2pt"
+              },
+              "LineStyle": {
+                "Border": {
+                  "Style": "Solid"
+                }
+              },
+              "MajorGrid": true,
+              "MajorGridStyle": {
+                "Border": {
+                  "Color": "Gray",
+                  "Style": "Solid"
+                }
+              },
+              "Plots": [
+                "Plot 1",
+                "Plot 2"
+              ],
+              "Title": "Unit Price",
+              "TitleStyle": {
+                "PaddingLeft": "2pt",
+                "PaddingRight": "2pt",
+                "PaddingTop": "2pt",
+                "PaddingBottom": "2pt"
+              }
+            },
+            {
+              "LabelStyle": {
+                "PaddingLeft": "2pt",
+                "PaddingRight": "2pt",
+                "PaddingTop": "2pt",
+                "PaddingBottom": "2pt"
+              },
+              "LineStyle": {
+                "Border": {
+                  "Style": "Solid"
+                }
+              },
+              "MajorGridStyle": {
+                "Border": {
+                  "Color": "Gray",
+                  "Style": "Solid"
+                }
+              },
+              "Plots": [
+                "Plot 2"
+              ],
+              "Title": "Category Name",
+              "TitleStyle": {
+                "PaddingLeft": "2pt",
+                "PaddingRight": "2pt",
+                "PaddingTop": "2pt",
+                "PaddingBottom": "2pt"
+              }
+            },
+            {
+              "AxisType": "Y",
+              "Format": "c2",
+              "LabelStyle": {
+                "PaddingLeft": "2pt",
+                "PaddingRight": "2pt",
+                "PaddingTop": "2pt",
+                "PaddingBottom": "2pt"
+              },
+              "LineStyle": {
+                "Border": {
+                  "Style": "Solid"
+                }
+              },
+              "MajorGridStyle": {
+                "Border": {
+                  "Color": "Gray",
+                  "Style": "Solid"
+                }
+              },
+              "Plots": [
+                "Plot 2"
+              ],
+              "Title": "Unit Price",
+              "TitleStyle": {
+                "PaddingLeft": "2pt",
+                "PaddingRight": "2pt",
+                "PaddingTop": "2pt",
+                "PaddingBottom": "2pt"
+              }
+            }
+          ],
+          "Legends": [
+            {
+              "Orientation": "Vertical",
+              "Style": {
+                "PaddingRight": "10pt",
+                "PaddingTop": "4pt",
+                "PaddingBottom": "2pt"
+              }
+            }
+          ]
+        },
+        "Plots": [
+          {
+            "PlotName": "Plot 1",
+            "Encodings": {
+              "Values": [
+                {
+                  "Field": {
+                    "FieldType": "Simple",
+                    "Value": [
+                      "=Fields!UnitsInStock.Value"
+                    ],
+                    "Captions": [
+                      "Units In Stock"
+                    ]
+                  }
+                }
+              ],
+              "Category": {
+                "Field": {
+                  "FieldType": "Simple",
+                  "Value": [
+                    "=Fields!CategoryName.Value"
+                  ],
+                  "Captions": [
+                    ""
+                  ]
+                }
+              },
+              "Color": {
+                "Field": {
+                  "FieldType": "Simple",
+                  "Value": [
+                    "VALUESNAME"
+                  ],
+                  "Captions": [
+                    ""
+                  ]
+                }
+              },
+              "Shape": {
+                "Field": {
+                  "FieldType": "Simple"
+                }
+              },
+              "Size": {
+                "Field": {
+                  "FieldType": "Simple"
+                }
+              }
+            },
+            "PlotChartType": "Column",
+            "PlotChartSubtype": "Clustered"
+          },
+          {
+            "PlotName": "Plot 2",
+            "Encodings": {
+              "Values": [
+                {
+                  "Field": {
+                    "FieldType": "Simple",
+                    "Value": [
+                      "=Fields!UnitPrice.Value"
+                    ],
+                    "Captions": [
+                      "Unit Price"
+                    ]
+                  }
+                }
+              ],
+              "Category": {
+                "Field": {
+                  "FieldType": "Simple",
+                  "Value": [
+                    "=Fields!CategoryName.Value"
+                  ],
+                  "Captions": [
+                    ""
+                  ]
+                }
+              },
+              "Color": {
+                "Field": {
+                  "FieldType": "Simple",
+                  "Value": [
+                    "VALUESNAME"
+                  ],
+                  "Captions": [
+                    ""
+                  ]
+                }
+              },
+              "Shape": {
+                "Field": {
+                  "FieldType": "Simple"
+                }
+              },
+              "Size": {
+                "Field": {
+                  "FieldType": "Simple"
+                }
+              }
+            },
+            "Config": {
+              "Action": {
+                "Drillthrough": {
+                  "ReportName": "Tutorial 4 - Master-Detail Report.rdlx-json",
+                  "Parameters": [
+                    {
+                      "ParameterName": "Parameter1",
+                      "Value": "1"
+                    }
+                  ]
+                }
+              }
+            },
+            "PlotChartType": "Column",
+            "PlotChartSubtype": "Clustered"
+          }
+        ],
+        "Width": "6.5in",
+        "Height": "4.5in"
+      }
+    ]
+  },
+  "DataSets": [
+    {
+      "Name": "DataSet",
+      "Fields": [
+        {
+          "Name": "ProductId",
+          "DataField": "ProductId"
+        },
+        {
+          "Name": "ProductName",
+          "DataField": "ProductName"
+        },
+        {
+          "Name": "QuantityPerUnit",
+          "DataField": "QuantityPerUnit"
+        },
+        {
+          "Name": "UnitPrice",
+          "DataField": "UnitPrice"
+        },
+        {
+          "Name": "UnitsInStock",
+          "DataField": "UnitsInStock"
+        },
+        {
+          "Name": "ReorderLevel",
+          "DataField": "ReorderLevel"
+        },
+        {
+          "Name": "Discontinued",
+          "DataField": "Discontinued"
+        },
+        {
+          "Name": "CategoryId",
+          "DataField": "CategoryId"
+        },
+        {
+          "Name": "CategoryName",
+          "DataField": "CategoryName"
+        },
+        {
+          "Name": "Description",
+          "DataField": "Description"
+        }
+      ],
+      "Query": {
+        "DataSourceName": "Products",
+        "CommandText": "jpath=$.Data[*]"
+      },
+      "CaseSensitivity": "Auto",
+      "KanatypeSensitivity": "Auto",
+      "AccentSensitivity": "Auto",
+      "WidthSensitivity": "Auto"
+    }
+  ]
+}
